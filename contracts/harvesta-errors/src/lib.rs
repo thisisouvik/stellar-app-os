@@ -198,4 +198,6 @@ pub enum FarmerError {
     NotValidator = 6,
     HashMismatch = 7,
     FarmerFrozen = 8,
+    LandTenureAlreadyExists = 9,
+    LandTenureNotFound = 10,
 }
